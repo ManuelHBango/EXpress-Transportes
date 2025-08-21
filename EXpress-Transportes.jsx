@@ -1,24 +1,3 @@
-/*
-  SITE STARTER — EMPRESA DE TRANSPORTE RODOVIÁRIO
-  ------------------------------------------------
-  • Stack: React + Tailwind (sem dependências externas), 1 único componente.
-  • Interações: busca de rotas, simulação de preço, formulário de reserva com validação,
-    armazenamento local (localStorage), FAQ interativo, widget de assistente (mini‑chat),
-    geração de link para WhatsApp/Email com o resumo da reserva.
-  • Se você estiver no ChatGPT, este arquivo já pode ser pré-visualizado.
-  • Para usar no GitHub Pages:
-      1) Crie um projeto Vite (React):
-         npm create vite@latest transporte-site -- --template react
-         cd transporte-site && npm install
-      2) Substitua o conteúdo de src/App.jsx por ESTE arquivo (ajuste o export default).
-      3) Instale Tailwind e configure (https://tailwindcss.com/docs/guides/vite).
-      4) Faça build e publique com GitHub Actions ou gh-pages.
-
-  Personalize rapidamente:
-  - Altere COMPANY, CONTACT e ROUTES conforme sua operação.
-  - Troque cores e logos nas seções indicadas.
-*/
-
 import { useEffect, useMemo, useState } from "react";
 
 // ==========================
